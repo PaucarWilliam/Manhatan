@@ -21,3 +21,10 @@ def verificar_salud():
         "servicio": "backend",
         "activo": True,
     }
+
+@app.get("/prueba")
+def obtener_inicio():
+    return {
+        "estado": "prueba",
+        "mensaje": "Prueba Sincronización GitHub",
+    }
