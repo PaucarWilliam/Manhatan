@@ -1,0 +1,34 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Variables privadas
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pruebas y caché
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Visual Studio Code
+.vscode/
+
+# Frontend futuro
+node_modules/
+dist/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
