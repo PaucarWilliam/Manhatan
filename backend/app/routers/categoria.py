@@ -9,7 +9,7 @@ from sqlalchemy.orm import Session
 from app.dependencies import obtener_db
 from app.schemas.categoria import (
     CategoriaCreate,
-    CategoriaResponse,
+    CategoriaResponse, 
     CategoriaUpdate,
 )
 from app.services.categoria_service import (
